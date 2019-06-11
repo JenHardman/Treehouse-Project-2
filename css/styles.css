@@ -76,6 +76,35 @@ span {
   font-weight: bold;
 }
 
+.main-footer {
+  padding: 20px;
+}
+
+footer {
+  font-size: 1em;
+}
+
+.back-to-top  {
+  float: right;
+  width: 45%;
+  padding-right: 5px;
+
+}
+
+.back-to-top li {
+  list-style-type: none;
+  text-align: right;
+
+}
+
+.footer-name {
+    float: left;
+    width: 45%;
+    padding-left: 5px;
+
+
+}
+
 
 
 
