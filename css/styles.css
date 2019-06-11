@@ -1,0 +1,111 @@
+* {
+box-sizing: border-box;
+  }
+
+  body {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+
+  }
+
+header {
+    background: rgba(211, 211, 211, .2);
+  }
+
+  .header-name {
+      padding-top: 20px;
+      margin-top: 0;
+  }
+
+  .main-header {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+.profile-pic {
+  text-align: center;
+  width: 70%;
+}
+
+.main-nav ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+.main-nav li {
+  list-style: none;
+  background-color: #fffafa;
+  padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-images {
+  width: 90%;
+}
+
+.contact {
+  background: rgba(211, 211, 211, .2);
+  text-align: center;
+  padding: 20px;
+  bottom-border: solid black 2px;
+}
+
+span {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
