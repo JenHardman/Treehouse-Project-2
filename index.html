@@ -8,25 +8,27 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/normalize.css"
   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
+<header id="home">
    <div class="main-header">
   <h1 class="header-name">Jennifer Hardman</h1>
   <nav class="main-nav">
     <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">PORTFOLIO</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#portfolio">PORTFOLIO</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
     </ul>
 </nav>
     <img class="profile-pic" src="images/responsive-layout-profile.png" alt="Profile picture of Jen Hardman"/>
-  <p class="intro">Hello! I am a front-end development student who is learning responsive design and css. So far I have learned a ton and can't wait to put my skills to use. Look below to see what kind of interesting projects I have been working on!</p>
+  <p class="intro">Hello! I am a front-end development student who is learning <span class="highlight">responsive design</span> and <span class="highlight">css</span>. So far I have learned a ton and can't wait to put my skills to use. Look below to see what kind of interesting projects I have been working on!</p>
 </div>
 </header>
 
-<main class="main-content">
+<main id="portfolio"class="main-content">
   <h3 class="section-titles">PORTFOLIO</h3>
 
   <div class="container">
@@ -65,25 +67,27 @@
         <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
   </div>
 
+<div id="skills" class="skills-container">
+  <h3 class="section-titles">SKILLS</h3>
+    <img class="icons" src="images/icons.png" alt="Image of HTML, CSS, JS icons."/>
+      <p>I have extensive knowledge in HTML, CSS, and Javascript, and I am continuing to add more skills and experiment with different languages including Python and Ruby.</p>
+
+  </div>
 </main>
 
 
-<div class="contact">
+<div id="contact" class="contact">
   <h3 class="section-titles">CONTACT</h3>
   <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
   <p>Phone  <span>+1(111) 555-1234</span></p>
   <p>Email  <span>jennifer.hardman11@gmail.com</span></p>
 </div>
 
-<footer class="clearfix">
-  <div class="footer-name">
-    <h3>Jennifer Hardman</h3></div>
+<footer>
+    <h3 class="footer-name">Jennifer Hardman</h3>
   <div class="back-to-top">
-  <nav>
-      <ul>
-        <li><a href="#">BACK TO TOP</a></li>
-      </ul>
-    </nav>
+    <a href="#">BACK TO TOP</a>
+  </div>
 </div>
 </footer>
 

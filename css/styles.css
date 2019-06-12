@@ -13,6 +13,7 @@ header {
   }
 
   .header-name {
+      font-family: 'Courgette', cursive;
       padding-top: 20px;
       margin-top: 0;
   }
@@ -37,7 +38,6 @@ header {
 
 
 .main-nav li {
-  list-style: none;
   background-color: #fffafa;
   padding: 7px;
   margin-top: 10px;
@@ -45,9 +45,17 @@ header {
   text-align: center;
 }
 
+li {
+  list-style-type: none;
+}
+
  a {
   color: #000;
   text-decoration: none;
+}
+
+a:hover {
+  color:#0099cc;
 }
 
 .main-content {
@@ -65,8 +73,17 @@ header {
   width: 90%;
 }
 
-.contact {
+.skills-container {
   background: rgba(211, 211, 211, .2);
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.icons {
+  width: 25%;
+}
+
+.contact {
   text-align: center;
   padding: 20px;
   bottom-border: solid black 2px;
@@ -76,33 +93,25 @@ span {
   font-weight: bold;
 }
 
-.main-footer {
-  padding: 20px;
+.highlight {
+    color: red;
 }
 
 footer {
   font-size: 1em;
+    background: rgba(211, 211, 211, .2);
 }
 
-.back-to-top  {
+.back-to-top {
+  display: inline-block;
   float: right;
-  width: 45%;
   padding-right: 5px;
-
+  padding-top: 20px;
 }
 
-.back-to-top li {
-  list-style-type: none;
-  text-align: right;
-
-}
 
 .footer-name {
-    float: left;
-    width: 45%;
-    padding-left: 5px;
-
-
+    display: inline-block;
 }
 
 
