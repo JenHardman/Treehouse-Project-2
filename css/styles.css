@@ -74,9 +74,9 @@ a:hover {
 }
 
 .skills-container {
-  background: rgba(211, 211, 211, .2);
   margin: 0 auto;
   padding: 20px 0;
+  text-align: center;
 }
 
 .icons {
@@ -84,9 +84,10 @@ a:hover {
 }
 
 .contact {
+  background: rgba(211, 211, 211, .2);
   text-align: center;
-  padding: 20px;
-  bottom-border: solid black 2px;
+  padding: 10px;
+  border-bottom: solid black 1px;
 }
 
 span {
@@ -112,6 +113,58 @@ footer {
 
 .footer-name {
     display: inline-block;
+}
+
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+
+}
+
+@media (min-width: 768px) {
+
+  .main-nav li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: inherit;
+
+
+  }
+  .intro {
+    float: left;
+    width: 50%;
+    padding: 20px 10px;
+    text-align: left;
+}
+
+  .profile-pic {
+  float: right;
+  width: 50%;
+}
+
+.container-1,
+.container-3,
+.container-5 {
+  float: left;
+  width: 47%;
+
+}
+
+.container-2,
+.container-4,
+.container-6 {
+  float: right;
+  width: 47%;
+
+}
+
+
+
+
+
+
 }
 
 
