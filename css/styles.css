@@ -178,15 +178,20 @@ footer {
 
 .header-name {
   float: left;
+  padding-top: 0;
+  padding-left: 10px;
+  margin-left: 10px;
 }
 
 .main-nav {
   float: right;
+  padding-top: 20px;
 }
 
 
-
-
+.main-nav li {
+  float: left;
+}
 
 .container {
     float: left;
