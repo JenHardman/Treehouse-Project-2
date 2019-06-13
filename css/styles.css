@@ -147,12 +147,12 @@ footer {
 
   .profile-pic {
   float: right;
-  width: 50%;
+  width: 40%;
 }
 
 .container {
   float: left;
-  width: 50%;
+  width: 60%;
   padding: 0 10px;
 
 
@@ -172,44 +172,23 @@ footer {
     padding: 0 6px;
 }
 
+
 }
 
 @media (min-width: 1024px) {
-  .container {
+
+
+
+
+
+
+
+.container {
     float: left;
     width: 33.3%;
   }
 
-}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
